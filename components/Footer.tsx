@@ -5,14 +5,14 @@ import { socialMedia } from "@/data";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
+    <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
+      {/* <div className="w-full absolute left-0 -bottom-72 min-h-96 overflow-hidden">
         <img
           src="/footer-grid.svg"
           alt="grid"
-          className="w-full h-full opacity-60"
+          className="w-full h-full opacity-70"
         />
-      </div>
+      </div> */}
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
@@ -20,7 +20,7 @@ const Footer = () => {
           presence to the next level
         </h1>
         <p className="text-white-200 md:mt-10 my-5">
-          Reach oit to me today and let&apos;s discuss how I can help you
+          Reach out to me today and let&apos;s discuss how I can help you
           achieve you goals.
         </p>
         <a href="mailto:carsonharp.fullstack@gmail.com">
@@ -43,7 +43,7 @@ const Footer = () => {
               key={profile.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <img src={profile.img} alt={profile.id} width={20} height={20} />
+              <img src={profile.img} alt="Social Media Icon" width={20} height={20} />
             </div>
           ))}
         </div>
