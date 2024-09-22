@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Vaulty - Inventory Management",
+    des: "An intuitive inventory management app that helps users effortlessly track, organize, and manage their products and finances.",
+    img: "/vaulty.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://main.d20srxd2k7f1cg.amplifyapp.com/",
   },
   {
     id: 2,
