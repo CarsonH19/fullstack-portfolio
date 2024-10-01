@@ -14,21 +14,18 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="In this phase, I focus on defining the project's goals and determining the best technologies to use. This includes selecting the tech stack, identifying core features, and outlining the most effective project structure to ensure scalability, maintainability, and efficiency."
         >
           <CanvasRevealEffect
-            animationSpeed={5.1}
+            animationSpeed={3}
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+            dotSize={2}
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Development"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="This is where the project takes shape. I turn the concept into a functional application, following best practices like modular code design, version control, and adherence to clean coding standards. This phase involves building both the frontend and backend components, setting up the database, and integrating necessary APIs and services."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -41,16 +38,15 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Launch"
+          title="Testing & Deployment"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="In this final phase, I rigorously test the application to ensure it meets all functional, performance, and security requirements. After addressing any issues, I deploy the project using platforms like Vercel, Netlify, or AWS. I also monitor the deployed application for ongoing performance and updates."
         >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
+            dotSize={2}
           />
         </Card>
       </div>

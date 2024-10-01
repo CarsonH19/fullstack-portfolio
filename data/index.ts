@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/portrait-2.png",
     spareImg: "",
   },
   {
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Fullstack developer focused on creating efficient and scalable solutions.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a JS learning application",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Want to work together? \n Let me know!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,36 +72,36 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Babble - Language Learning App",
+    des: "A dynamic language learning app featuring leaderboards, quests, and a shop to gamify the experience and enhance user engagement.",
+    img: "/babble.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shadcn.svg", "/neondb.svg", "/drizzle.svg"],
+    link: "https://babble-seven.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Vaulty - Inventory Management",
     des: "An intuitive inventory management app that helps users effortlessly track, organize, and manage their products and finances.",
     img: "/vaulty.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/materialui.svg", "/prisma.svg", "/aws.svg"],
     link: "https://main.d20srxd2k7f1cg.amplifyapp.com/",
   },
-  // {
-  //   id: 2,
-  //   title: "Babble - Language Learning App",
-  //   des: "A dynamic language learning app featuring leaderboards, quests, and a shop to gamify the experience and enhance user engagement.",
-  //   img: "/babble.png",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-  //   link: "https://babble-seven.vercel.app/",
-  // },
-  // {
-  //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "https://github.com/adrianhajdin/ai_saas_app",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "https://github.com/adrianhajdin/iphone",
-  // },
+  {
+    id: 3,
+    title: "AI Image SaaS - Canva Application",
+    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    img: "/p3.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://github.com/adrianhajdin/ai_saas_app",
+  },
+  {
+    id: 4,
+    title: "Animated Apple Iphone 3D Website",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://github.com/adrianhajdin/iphone",
+  },
 ];
 
 export const testimonials = [
@@ -204,14 +204,12 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    link: 'https://github.com/CarsonH19',
     img: "/git.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
+    link: "www.linkedin.com/in/carson-harp-96a678155",
     img: "/link.svg",
   },
 ];
