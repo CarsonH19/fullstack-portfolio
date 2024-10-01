@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I create efficient, scalable applications by integrating best practices in both frontend and backend development.",
+    title:
+      "I create efficient, scalable applications by integrating best practices in both frontend and backend development.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,7 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Fullstack developer focused on creating efficient and scalable solutions.",
+    title:
+      "Fullstack developer focused on creating efficient and scalable solutions.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -75,7 +77,15 @@ export const projects = [
     title: "Babble - Language Learning App",
     des: "A dynamic language learning app featuring leaderboards, quests, and a shop to gamify the experience and enhance user engagement.",
     img: "/babble.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shadcn.svg", "/neondb.svg", "/drizzle.svg"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/shadcn.svg",
+      "/c.svg",
+      "/neondb.svg",
+      "/drizzle.svg",
+    ],
     link: "https://babble-seven.vercel.app/",
   },
   {
@@ -83,7 +93,14 @@ export const projects = [
     title: "Vaulty - Inventory Management",
     des: "An intuitive inventory management app that helps users effortlessly track, organize, and manage their products and finances.",
     img: "/vaulty.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/materialui.svg", "/prisma.svg", "/aws.svg"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/materialui.svg",
+      "/prisma.svg",
+      "/aws.svg",
+    ],
     link: "https://main.d20srxd2k7f1cg.amplifyapp.com/",
   },
   {
@@ -107,35 +124,36 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I use Next.js for dynamic, server-rendered apps, utilizing its routing and API features for high performance. React.js allows for reusable components and effective state management, while Tailwind CSS streamlines styling with its utility-first approach, keeping my code organized and responsive.",
+    name: "Frontend",
+    title: "Next.js / React.js / Tailwind CSS",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "For user interfaces, I utilize ShadcnUI and AceternityUI for modular components that speed up development. Material-UI provides consistency across applications with its pre-designed components, and Recharts helps visualize complex data intuitively.",
+    name: "User Interface",
+    title: "ShadcnUI / AceternityUI / MaterialUI / Recharts",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I rely on PostgreSQL as my primary database for its robustness and scalability. MongoDB with Mongoose is used for flexible, unstructured data, while Prisma simplifies database interactions. Drizzle facilitates smart contract integrations for blockchain functionalities.",
+    name: "Backend",
+    title: "PostgreSQL / Prisma / Drizzle / MongoDB / Mongoose",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "For version control, I use Git and GitHub to track changes efficiently. Postman ensures my APIs function correctly, while Sentry provides real-time error monitoring. Stripe handles secure transactions, and Clerk streamlines user authentication and management.",
+    name: "Development Tools",
+    title: "Git & GitHub / Postman / Clerk / Sentry / Stripe",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "For deployment, I use AWS for scalable hosting and Vercel for optimized Next.js applications. I also leverage Netlify for continuous deployment and frontend hosting, integrating seamlessly with my Git workflows.",
+    name: "Deployment",
+    title: "Vercel / Netlify / AWS",
   },
 ];
+
 
 export const companies = [
   {
@@ -204,7 +222,7 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    link: 'https://github.com/CarsonH19',
+    link: "https://github.com/CarsonH19",
     img: "/git.svg",
   },
   {
