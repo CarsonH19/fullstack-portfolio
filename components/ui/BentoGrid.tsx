@@ -89,7 +89,7 @@ export const BentoGridItem = ({
       }}
     >
       {/* add img divs */}
-      <div className={`${id === 6 && "flex justify-center"} h-full`}>
+      <div className={`${id === 5 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
             <img
@@ -101,7 +101,7 @@ export const BentoGridItem = ({
         </div>
         <div
           className={`absolute right-0 -bottom-5 ${
-            id === 5 && "w-full opacity-80"
+            id === 6 && "w-full opacity-80"
           } `}
         >
           {spareImg && (
@@ -113,7 +113,7 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {id === 6 && (
+        {id === 5 && (
           // add background animation , remove the p tag
           <BackgroundGradientAnimation>
             {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
@@ -170,8 +170,8 @@ export const BentoGridItem = ({
           )}
           {/* for the github 3d globe */}
           {id === 4 && <GlobeDemo />}
-          
-          {id === 6 && (
+
+          {id === 5 && (
             <div className="mt-5 relative">
               {/* button border magic from tailwind css buttons  */}
               {/* add rounded-md h-8 md:h-8, remove rounded-full */}
