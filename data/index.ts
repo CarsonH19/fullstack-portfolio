@@ -10,7 +10,7 @@ export const gridItems = [
     id: 1,
     title:
     "Hi, I'm Carson, a Fullstack Developer based in Florida, USA.",
-    description: "Who am I?",
+    description: "About Me",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -21,7 +21,7 @@ export const gridItems = [
     id: 2,
     title:
       "I create efficient, scalable applications by integrating best practices in both frontend and backend development",
-    description: "What do I do?",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -31,7 +31,7 @@ export const gridItems = [
   {
     id: 3,
     title: "I constantly try to improve my tech stack",
-    description: "What technology do I use?",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -41,7 +41,7 @@ export const gridItems = [
   {
     id: 4,
     title: "I foster cross-functional collaboration with team members across the globe",
-    description: "Who do I work with?",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -50,8 +50,8 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Currently, I'm building an educational app, called Spell Scripter which gamifies the process of learning JS and introduces new people to the world of programming.",
-    description: "What am I building now?",
+    title: "I'm building an educational app, which gamifies the process of learning JS.",
+    description: "Current Project",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -60,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Want to work together? \n Let me know!",
+    title: "Want to work together? \n Just let me know!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
