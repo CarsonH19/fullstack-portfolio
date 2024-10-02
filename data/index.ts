@@ -50,16 +50,6 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Want to work together? \n Just let me know!",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 6,
     title: "I'm building an educational app, which gamifies the process of learning JS.",
     description: "Current Project",
     className: "md:col-span-3 md:row-span-2",
@@ -68,6 +58,17 @@ export const gridItems = [
     img: "/b5.svg",
     spareImg: "/grid.svg",
   },
+  {
+    id: 6,
+    title: "Want to work together? \n Just let me know!",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    img: "",
+    spareImg: "",
+  },
+  
 ];
 
 export const projects = [
