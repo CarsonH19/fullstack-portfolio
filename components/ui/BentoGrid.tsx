@@ -138,9 +138,6 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {/* for the github 3d globe */}
-          {id === 2 && <GlobeDemo />}
-
           {/* Tech stack list div */}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
@@ -171,6 +168,9 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
+          {/* for the github 3d globe */}
+          {id === 4 && <GlobeDemo />}
+          
           {id === 6 && (
             <div className="mt-5 relative">
               {/* button border magic from tailwind css buttons  */}
