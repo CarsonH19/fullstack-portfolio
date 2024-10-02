@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title:
-      "I create efficient, scalable applications by integrating best practices in both frontend and backend development.",
+    "Hi, I'm Carson, a Fullstack Developer based in Florida, USA.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Prioritizing cross-functional collaboration",
+    title: "I prioritize cross-functional collaboration",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "I constantly try to improve my tech stack",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -40,7 +40,7 @@ export const gridItems = [
   {
     id: 4,
     title:
-      "Fullstack developer focused on creating efficient and scalable solutions.",
+      "I create efficient, scalable applications by integrating best practices in both frontend and backend development",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
