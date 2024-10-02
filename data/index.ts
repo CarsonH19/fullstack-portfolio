@@ -83,7 +83,6 @@ export const projects = [
       "/shadcn.svg",
       "/c.svg",
       "/neondb.svg",
-      "/drizzle.svg",
     ],
     link: "https://babble-seven.vercel.app/",
   },
