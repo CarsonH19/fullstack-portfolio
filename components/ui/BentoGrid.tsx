@@ -23,7 +23,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 grid-rows-6 lg:grid-rows-4 mx-auto",
         className
       )}
     >
@@ -75,10 +75,9 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-       id === 5 ? "hidden md:flex" : "flex",
-       id === 3 ? "hidden" : "",
-        // id === 1 ? "col-span-2" : "col-span-1",
-        id === 6 ? "md:items-center md:justify-center" : "",
+        id === 5 ? "hidden md:flex" : "flex",
+        id === 3 ? "hidden" : "",
+        id === 6 ? "items-center justify-center" : "",
         "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex-col space-y-4 select-none",
         className
       )}
@@ -95,7 +94,11 @@ export const BentoGridItem = ({
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, "object-contain object-right")}
+              className={cn(
+                imgClassName,
+                "object-contain object-right",
+                id === 1 && "absolute right-0 bottom-0"
+              )}
             />
           )}
         </div>
@@ -124,7 +127,7 @@ export const BentoGridItem = ({
             "relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm z-10">
             {description}
           </div>
 
@@ -133,6 +136,8 @@ export const BentoGridItem = ({
           >
             {title}
           </div>
+
+          {id === 6 && <p className="text-xs font-semibold uppercase text-[#C1C2D3]">Send me an email</p>}
 
           {/* Tech stack list div */}
           {id === 3 && (
