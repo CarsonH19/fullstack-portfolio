@@ -20,7 +20,7 @@ export const gridItems = [
   {
     id: 2,
     title:
-      "I create efficient, scalable applications by integrating best practices in both frontend and backend development",
+      "I create efficient, scalable applications by integrating best practices in both frontend and backend development.",
     description: "My Work",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -40,7 +40,7 @@ export const gridItems = [
   // },
   {
     id: 4,
-    title: "Ready to foster cross-functional collaboration with team members around the world.",
+    title: "I'm ready to foster cross-functional collaboration with team members around the world.",
     description: "Availability",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2 row-span-2",
     imgClassName: "",
@@ -50,7 +50,7 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "I'm building an educational app which gamifies the process of learning JavaScript.",
+    title: "I'm building an educational app which gamifies the process of learning JavaScript and the fundamentals of programming.",
     description: "Current Project",
     className: "md:col-span-3 md:row-span-2 lg:row-span-2",
     imgClassName: "absolute right-0 bottom-0 lg:w-3/4 md:w-96 w-60",
@@ -129,22 +129,6 @@ export const projects = [
     ],
     link: "https://sorting-visualizer-flax-two.vercel.app/",
   },
-  // {
-  //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "https://github.com/adrianhajdin/ai_saas_app",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "https://github.com/adrianhajdin/iphone",
-  // },
 ];
 
 export const testimonials = [
@@ -253,7 +237,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    link: "www.linkedin.com/in/carson-harp-fullstack",
+    link: "https://www.linkedin.com/in/carson-harp-fullstack",
     img: "/link.svg",
   },
 ];
