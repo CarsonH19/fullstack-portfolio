@@ -224,21 +224,21 @@ export const workExperience = [
     id: 1,
     title: "Frontend",
     desc: "Next.js / React.js / Tailwind CSS",
-    className: "md:col-span-2",
+    className: "md:col-span-2 ",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Backend",
     desc: "PostgreSQL / NeonDB / Prisma / Drizzle / MongoDB / Mongoose",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "User Interface",
     desc: "ShadcnUI / AceternityUI / MaterialUI / Recharts",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
