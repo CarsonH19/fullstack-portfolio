@@ -24,7 +24,7 @@ https://fullstack-portfolio-gules.vercel.app/
 
 Feel free to reach out if you have any questions or opportunities!
 
-Email: carsonharp.fullstack@gmail.com
-GitHub: https://github.com/CarsonH19
-LinkedIn: https://www.linkedin.com/in/carson-harp-fullstack
+- Email: carsonharp.fullstack@gmail.com
+- GitHub: https://github.com/CarsonH19
+- LinkedIn: https://www.linkedin.com/in/carson-harp-fullstack
 
