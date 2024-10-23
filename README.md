@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fullstack Developer Portfolio
 
-## Getting Started
+Welcome to my portfolio website! This project showcases my skills as a fullstack developer and highlights my work across various projects, emphasizing my expertise in both frontend and backend technologies.
 
-First, run the development server:
+## About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I am a self-taught fullstack developer with a passion for creating engaging and dynamic web applications. My educational background is a Bachelor's Degree in Biology and a Minor in Psychology. I have professional work experience in multiple fields including education and medical sales.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Projects
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This portfolio features several projects that demonstrate my capabilities. Each project includes details about its functionality, technologies used, and the development process.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Key Features
+- **Responsive Design:** The website is fully responsive and works seamlessly on various devices and screen sizes.
+- **Project Breakdown:** Each project includes a detailed breakdown of the planning, strategy, development progress, and launch phases.
+- **Technology Stack:** Highlights the technologies used in each project, categorized into Frontend, User Interface, Backend, and Development Tools.
+- **Showcase of Skills:** Emphasizes my fullstack development skills to enhance employability for companies.
 
-## Learn More
+### Live Site
 
-To learn more about Next.js, take a look at the following resources:
+https://fullstack-portfolio-gules.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Feel free to reach out if you have any questions or opportunities!
 
-## Deploy on Vercel
+Email: carsonharp.fullstack@gmail.com
+GitHub: https://github.com/CarsonH19
+LinkedIn: https://www.linkedin.com/in/carson-harp-fullstack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
