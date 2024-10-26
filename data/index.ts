@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title:
-    "Hello, I'm Carson, a Fullstack Developer based in Florida, USA.",
+    "Hello, I'm Carson, a Full-Stack Developer based in Florida, USA.",
     description: "About Me",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:row-span-2 row-span-2",
     imgClassName: "sm:w-full sm:h-full w-3/4 h-3/4",
