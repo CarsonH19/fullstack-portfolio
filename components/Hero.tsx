@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Fullstack Developer Portfolio
+            Full-Stack Developer Portfolio
           </h2>
 
           <TextGenerateEffect
@@ -36,7 +36,7 @@ const Hero = () => {
           />
 
           {/* <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Carson, a Fullstack Developer based in Florida, USA.
+            Hi, I&apos;m Carson, a Full-Stack Developer based in Florida, USA.
           </p> */}
 
           <a href="#projects">
